@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+Employee Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Добро пожаловать в Employee Management App – простий та ефективний додаток для обліку співробітників вашої компанії. Цей додаток допомагає вам легко вести список співробітників, відстежувати їхні зміни заробітної плати та дізнаватись, хто з них заслуговує на підвищення або премію.
 
-## Available Scripts
 
-In the project directory, you can run:
+Основні функції:
 
-### `npm start`
+⦿ Додавання нових співробітників у список.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+⦿ Видалення співробітників зі списку.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+⦿ Відмітка співробітників, які заслуговують на підвищення або отримали премію.
 
-### `npm test`
+⦿ Пошук співробітників за ім'ям.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+⦿ Відфільтровування списку за рівнем заробітної плати.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Як користуватись додатком:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+⦿ Запустіть додаток та перегляньте список усіх співробітників компанії.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+⦿ Використовуйте поле пошуку для швидкого знаходження конкретного співробітника за ім'ям.
 
-### `npm run eject`
+⦿ Натисніть на ім'я співробітника, щоб позначити його як претендента на підвищення.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+⦿ Натисніть на значок печива біля імені співробітника, щоб відмітити його як отримувача премії.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+⦿ Використовуйте фільтри "На підвищення" та "З/П вища за 1000$" для знаходження співробітників, які заслуговують на підвищення або мають заробітну плату вищу за 1000$.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+⦿ Додайте нового співробітника, заповнивши необхідні поля у розділі "Додати нового співробітника".
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Вимоги:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Для коректної роботи додатка, необхідно мати встановлені Node.js та npm.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Інструкція по запуску:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+⦿ Склонуйте репозиторій з GitHub на свій комп'ютер.
 
-### Analyzing the Bundle Size
+⦿ Відкрийте командний рядок та перейдіть у папку з проектом.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+⦿ Виконайте команду npm install для встановлення необхідних залежностей.
 
-### Making a Progressive Web App
+⦿ Після завершення виконайте команду npm start, щоб запустити додаток.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⦿ Відкрийте браузер та перейдіть за адресою http://localhost:3000, щоб переглянути додаток у дії.

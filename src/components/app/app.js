@@ -11,17 +11,23 @@ import './app.css';
 class App extends Component {
     constructor(props){
         super(props);
+        const storedData = localStorage.getItem('data');
         this.state = {
-            data: [
-                {name: 'Alex M.', salary: 800, increase: false, rise: true, id: 1},
-                {name: 'Mark A.', salary: 1000, increase: true, rise: false, id: 2},
-                {name: 'Preston H.', salary: 1400, increase: false, rise: false, id: 3},
-                {name: 'Selena S.', salary: 3700, increase: false, rise: false, id: 4}
+            data: storedData ? JSON.parse(storedData) : [
+                { name: 'Alex M.', salary: 800, increase: false, rise: true, id: 1 },
+                { name: 'Mark A.', salary: 1000, increase: true, rise: false, id: 2 },
+                { name: 'Preston H.', salary: 1400, increase: false, rise: false, id: 3 },
+                { name: 'Selena S.', salary: 3700, increase: false, rise: false, id: 4 }
             ],
             term: '',
             filter: ''
         }
-        this.maxId = 5
+        this.maxId = storedData ? JSON.parse(storedData).reduce((maxId, item) => Math.max(maxId, item.id), 0) + 1 : 5;
+    }
+
+    componentDidUpdate() {
+        const { data } = this.state;
+        localStorage.setItem('data', JSON.stringify(data));
     }
 
     deleteItem = (id) => {
@@ -36,7 +42,8 @@ class App extends Component {
         const newItem = {
             name,
             salary,
-            increase: false, 
+            increase: false,
+            rise: false,
             id: this.maxId++
         }
 
