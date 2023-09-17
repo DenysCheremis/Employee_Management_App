@@ -1,53 +1,29 @@
-Employee Management App
+**Employee Management App**  
+Welcome to the Employee Management App – a simple and effective tool for keeping track of your company's employees. This application helps you easily maintain a list of employees, monitor their salary changes, and determine who deserves a promotion or bonus.
 
-Добро пожаловать в Employee Management App – простий та ефективний додаток для обліку співробітників вашої компанії. Цей додаток допомагає вам легко вести список співробітників, відстежувати їхні зміни заробітної плати та дізнаватись, хто з них заслуговує на підвищення або премію.
-
-
-Основні функції:
-
-⦿ Додавання нових співробітників у список.
-
-⦿ Видалення співробітників зі списку.
-
-⦿ Відмітка співробітників, які заслуговують на підвищення або отримали премію.
-
-⦿ Пошук співробітників за ім'ям.
-
-⦿ Відфільтровування списку за рівнем заробітної плати.
-
-⦿ Можливість зміни заробітної плати співробітників через поле введення.
-
-⦿ Збереження даних в Local storage для збереження інформації про співробітників.
-
-
-Як користуватись додатком:
-
-⦿ Запустіть додаток та перегляньте список усіх співробітників компанії.
-
-⦿ Використовуйте поле пошуку для швидкого знаходження конкретного співробітника за ім'ям.
-
-⦿ Натисніть на ім'я співробітника, щоб позначити його як претендента на підвищення.
-
-⦿ Натисніть на значок печива біля імені співробітника, щоб відмітити його як отримувача премії.
-
-⦿ Використовуйте фільтри "На підвищення" та "З/П вища за 1000$" для знаходження співробітників, які заслуговують на підвищення або мають заробітну плату вищу за 1000$.
-
-⦿ Додайте нового співробітника, заповнивши необхідні поля у розділі "Додати нового співробітника".
-
-
-Вимоги:
-
-Для коректної роботи додатка, необхідно мати встановлені Node.js та npm.
-
-
-Інструкція по запуску:
-
-⦿ Склонуйте репозиторій з GitHub на свій комп'ютер.
-
-⦿ Відкрийте командний рядок та перейдіть у папку з проектом.
-
-⦿ Виконайте команду npm install для встановлення необхідних залежностей.
-
-⦿ Після завершення виконайте команду npm start, щоб запустити додаток.
-
-⦿ Відкрийте браузер та перейдіть за адресою http://localhost:3000, щоб переглянути додаток у дії.
+**Key Features:**  
+⦿ Adding new employees to the list.  
+⦿ Removing employees from the list.  
+⦿ Marking employees eligible for promotion or those who have received a bonus.  
+⦿ Searching for employees by name.  
+⦿ Filtering the list by salary level.  
+⦿ Ability to update employee salaries through the input field.  
+⦿ Saving data in Local Storage to preserve employee information.  
+  
+**How to Use the App:**  
+⦿ Launch the app and review the list of all company employees.  
+⦿ Utilize the search field to quickly find a specific employee by name.  
+⦿ Click on an employee's name to mark them as a promotion candidate.  
+⦿ Click on the cookie icon next to an employee's name to label them as a bonus recipient.  
+⦿ Use the "All employees", "Up for promotion" and "Salary more than $1000" filters to identify employees deserving of a promotion or having a salary exceeding $1000.  
+⦿ Add a new employee by filling in the required fields in the "Add a new employee" section.  
+  
+**Requirements:**  
+To ensure the proper functioning of the application, Node.js and npm must be installed.  
+  
+**Installation Instructions:**  
+⦿ Clone the GitHub repository to your computer.  
+⦿ Open the command line and navigate to the project folder.  
+⦿ Execute the command npm install to install the necessary dependencies.  
+⦿ Upon completion, run the command npm start to launch the application.  
+⦿ Open your web browser and go to http://localhost:3000 to experience the app in action.
