@@ -3,12 +3,10 @@ import { Component } from "react";
 import "./emploees-add-form.css";
 
 class EmploeesAddForm extends Component{
-    constructor(props){
-        super(props);
-        this.state = {
-            name: '',
-            salary: ''
-        }
+    
+    state = {
+        name: '',
+        salary: ''
     }
 
     onValueChange = (e) => {
@@ -32,25 +30,25 @@ class EmploeesAddForm extends Component{
         
         return (
             <div className="app-add-form">
-                <h3>Додайте нового співробітника</h3>
+                <h3>Add a new employee</h3>
                 <form
                     className="add-form d-flex"
                     onSubmit={this.onSubmit}>
                     <input type="text"
                         className="form-control new-post-label"
-                        placeholder="Його ім'я"
+                        placeholder="Name"
                         name="name"
                         value={name}
                         onChange={this.onValueChange}/>
                     <input type="number"
                         className="form-control new-post-label"
-                        placeholder="З/П в $?"
+                        placeholder="Salary"
                         name="salary"
                         value={salary}
                         onChange={this.onValueChange}/>
     
                     <button type="submit"
-                            className="btn btn-outline-light">Додати</button>
+                            className="btn btn-outline-light">Add</button>
                 </form>
             </div>
         )
