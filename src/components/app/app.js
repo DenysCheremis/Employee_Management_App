@@ -20,7 +20,7 @@ class App extends Component {
                 { name: 'Selena S.', salary: 3700, increase: false, rise: false, id: 4 }
             ],
             term: '',
-            filter: ''
+            filter: 'all'
         }
         this.maxId = storedData ? JSON.parse(storedData).reduce((maxId, item) => Math.max(maxId, item.id), 0) + 1 : 5;
     }
