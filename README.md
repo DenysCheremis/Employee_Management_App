@@ -21,6 +21,7 @@ How to Use the App:
   
 Requirements:  
 To ensure the proper functioning of the application, Node.js and npm must be installed.  
+  
 Installation Instructions:  
 ⦿ Clone the GitHub repository to your computer.  
 ⦿ Open the command line and navigate to the project folder.  
